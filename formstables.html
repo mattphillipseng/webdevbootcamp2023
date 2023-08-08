@@ -11,6 +11,8 @@
 <body>
     <main>
         <h1>Forms &amp; Tables</h1>
+
+        <!-- Kerbin Atmos -->
         <section>
             <h2>Kerbin Astmosphere</h2>
             <table>
@@ -48,6 +50,124 @@
                 </tbody>
             </table>
         </section>
+        <hr>
+
+        <!-- Forms Example 1 -->
+        <section>
+            <h2>Forms Example 1</h2>
+            <form action="\fakelink">
+                <button type="button">Button inside form does nothing (type "button")</button>
+                <p>
+                    <label for="username">Enter your username:</label>
+                    <input type="text" placeholder="username" id="username" name="username">
+                </p>
+                <p>
+                    <label for="password">Enter your password:</label>
+                    <input type="password" placeholder="password" id="password" name="password">
+                </p>
+                <p>
+                    <label for="color">Select a color:</label>
+                    <input type="color" id="color" name="color">
+                </p>
+
+                <p>
+                    <label for="number">Enter a number:</label>
+                    <input type="number" placeholder="enter a number" id="number" name="number">
+                </p>
+                <!-- type is "submit" by default -->
+                <button>Submit!!!!!</button>
+            </form>
+            <button>Button outside of form does nothing</button>
+        </section>
+        <hr>
+
+        <!-- Internet Search -->
+        <section>
+            <h2>Internet Search</h2>
+            <form action="https://www.reddit.com/search">
+                <p>
+                    <input type="text" name="q">
+                    <button>Search Reddit</button>
+                </p>
+            </form>
+            <form action="https://www.google.com/search">
+                <p>
+                    <input type="text" name="q">
+                    <button>Search Google</button>
+                </p>
+            </form>
+            <form action="https://www.youtube.com/results">
+                <p>
+                    <input type="text" name="search_query">
+                    <button>Search YouTube</button>
+                </p>
+            </form>
+        </section>
+        <hr>
+
+        <!-- Radio Buttons, Checkboxes & Selects -->
+        <section>
+            <h2>Radio Buttons, Checkboxes &amp; Selects</h2>
+            <h3>Pizza Order</h3>
+            <form action="/order">
+                <p>
+                    <input type="checkbox" name="agree_tos" id="agree">
+                    <label for="agree">I agree to the TOS of the pizza man</label>
+                </p>
+                <p>
+                    <b>Toppings:</b>
+                    <br>
+                    <label for="sauce">Sauce:</label>
+                    <input type="checkbox" name="sauce" id="sauce" checked>
+                    <br>
+                    <label for="cheese">Cheese:</label>
+                    <input type="checkbox" name="cheese" id="cheese" checked>
+                    <br>
+                    <label for="pepperoni">Pepperoni:</label>
+                    <input type="checkbox" name="pepperoni" id="pepperoni">
+                    <br>
+                    <label for="mushrooms">Mushrooms:</label>
+                    <input type="checkbox" name="mushrooms" id="mushrooms">
+                    <br>
+                    <label for="pineapple">Pineapple:</label>
+                    <input type="checkbox" name="pineapple" id="pineapple" checked>
+                    <br>
+                    <label for="olives">Olives:</label>
+                    <input type="checkbox" name="olives" id="olives">
+                </p>
+                <p>
+                    Choose your pizza size:
+                    <label for="s">S</label>
+                    <input type="radio" name="size" id="s" value="s">
+                    <label for="m">M</label>
+                    <input type="radio" name="size" id="m" value="m" checked>
+                    <label for="l">L</label>
+                    <input type="radio" name="size" id="l" value="l">
+                </p>
+                <p>
+                    <label for="speed">Select delivery speed</label>
+                    <select name="speed" id="speed">
+                        <option value="snail">Snail</option>
+                        <option value="bicycle" selected>Bicycle</option>
+                        <option value="hyper">Hypersonic delivery drone</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="love">How much love do you want the pizza to be made with?</label>
+                    <input type="range" name="love" id="love" min="0" max="100" step="1" value="80">
+                </p>
+                <p>
+                    <label for="special">Special Instructions</label>
+                    <br>
+                    <textarea name="special" id="special" cols="30" rows="2" placeholder="Type here"></textarea>
+                </p>
+
+                <button>Submit</button>
+            </form>
+        </section>
+        <hr>
+
+
     </main>
 </body>
 
