@@ -58,8 +58,8 @@
             <form action="\fakelink">
                 <button type="button">Button inside form does nothing (type "button")</button>
                 <p>
-                    <label for="username">Enter your username:</label>
-                    <input type="text" placeholder="username" id="username" name="username">
+                    <label for="username3">Enter your username:</label>
+                    <input type="text" placeholder="username" id="username3" name="username3">
                 </p>
                 <p>
                     <label for="password">Enter your password:</label>
@@ -166,7 +166,71 @@
             </form>
         </section>
         <hr>
-
+        <section>
+            <h2>Form Validations</h2>
+            <form action="/dummy">
+                <p>
+                    <label for="name">First name:*</label>
+                    <input type="text" name="first" id="first" required>
+                </p>
+                <p>
+                    <label for="username2">Username:*</label>
+                    <input type="text" name="username2" id="username2" minlength="5" maxlength="20"
+                        placeholder="5-20 characters" required>
+                </p>
+                <p>
+                    <label for="email">Email:*</label>
+                    <input type="email" name="email" id="email" required>
+                </p>
+                <p>
+                    <label for="web">Website:</label>
+                    <input type="url" name="web" id="web">
+                </p>
+                <button>Submit</button>
+            </form>
+        </section>
+        <hr>
+        <section>
+            <h2>Marathon Registration</h2>
+            <h3>Race Registration!</h3>
+            <form action="/register">
+                <p>
+                    <label for="first2">First Name</label>
+                    <input type="text" name="first2" id="first2" required>
+                    <label for="last2">Last Name</label>
+                    <input type="text" name="last2" id="last2" required>
+                </p>
+                <p>
+                    Select a Race:
+                    <br>
+                    <br>
+                    <input type="radio" name="length" id="fun" value="fun" checked>
+                    <label for="fun">Fun Run 5k</label>
+                    <br>
+                    <input type="radio" name="length" id="half" value="half">
+                    <label for="half">Half Marathon</label>
+                    <br>
+                    <input type="radio" name="length" id="full">
+                    <label for="full">Full Marathon</label>
+                </p>
+                <p>
+                    <label for="email2">Email</label>
+                    <input type="email" name="email2" id="email2" required>
+                    <label for="password2">Password</label>
+                    <input type="password" name="password2" id="password2" minlength="8" required>
+                    <br>
+                    <label for="age">Select Age Group</label>
+                    <select name="age" id="age">
+                        <option value="under 18" selected>under 18</option>
+                        <option value="18-30">18-30</option>
+                        <option value="30-50">30-50</option>
+                        <option value="50+">50+</option>
+                    </select>
+                    <br>
+                    <button>Register!</button>
+                </p>
+            </form>
+        </section>
 
     </main>
 </body>
