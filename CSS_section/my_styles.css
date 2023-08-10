@@ -1,14 +1,17 @@
 h1 {
     color: #34495E;
-    background-color: #EAECEE;
     text-align: center;
-
-
+    text-decoration: black underline dotted;
+    letter-spacing: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
 }
 
 h2 {
     color: #2874A6;
     background-color: #EAECEE;
+    font-weight: normal;
 }
 
 button {
@@ -21,8 +24,13 @@ button {
 
 p {
     color: #4D5656;
+    line-height: 1.25;
 }
 
 body {
     background-color: rgb(235, 245, 251);
+}
+
+a {
+    text-decoration: none;
 }
