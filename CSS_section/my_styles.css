@@ -1,0 +1,28 @@
+h1 {
+    color: #34495E;
+    background-color: #EAECEE;
+    text-align: center;
+
+
+}
+
+h2 {
+    color: #2874A6;
+    background-color: #EAECEE;
+}
+
+button {
+    color: #CB4335;
+    background-color: #FADBD8;
+    border-color: #EC7063;
+    border-radius: 8px;
+    font-size: large;
+}
+
+p {
+    color: #4D5656;
+}
+
+body {
+    background-color: rgb(235, 245, 251);
+}
