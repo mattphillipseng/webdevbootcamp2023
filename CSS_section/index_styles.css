@@ -1,36 +1,68 @@
 h1 {
-    color: #34495E;
+    color: #1d3557;
     text-align: center;
-    text-decoration: black underline dotted;
-    letter-spacing: 10px;
+    /* text-decoration: black underline dotted; */
+    letter-spacing: 8px;
     font-family: Arial, sans-serif;
     font-size: 40px;
     text-transform: uppercase;
 }
 
 h2 {
-    color: #2874A6;
-    background-color: #EAECEE;
+    color: #f1faee;
+    background-color: #457b9d;
     font-weight: normal;
 }
 
 button {
-    color: #CB4335;
-    background-color: #FADBD8;
-    border-color: #EC7063;
+    color: #1d3557;
+    background-color: #a8dadc;
+    border-color: #a8dadc;
     border-radius: 8px;
     font-size: large;
+    font-weight: bold;
+}
+
+#downvote {
+    color: #f1faee;
+    background-color: #e63946;
+    border-color: #e63946;
 }
 
 p {
-    color: #4D5656;
+    color: #1d3557;
     line-height: 1.25;
 }
 
 body {
-    background-color: rgb(235, 245, 251);
+    background-color: #f1faee;
 }
 
 a {
+    color: #457b9d;
     text-decoration: none;
+}
+
+.summary {
+    background-color: #a8dadc;
+    color: #1d3557;
+    font-size: medium;
+}
+
+.topic a {
+    color: #e63946;
+    text-decoration: underline;
+}
+
+h1+p {
+    /* selects paragraphs right after h1s, on the same level  */
+}
+
+div>li {
+    /* selects only the lis that are direct children of a div  */
+}
+
+li>a {
+    color: #1d3557;
+    /* targets: Home, License, About  */
 }
