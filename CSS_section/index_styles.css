@@ -54,6 +54,10 @@ a {
     text-decoration: underline;
 }
 
+.topic a:hover {
+    color: magenta;
+}
+
 h1+p {
     /* selects paragraphs right after h1s, on the same level  */
 }
@@ -65,4 +69,33 @@ div>li {
 li>a {
     color: #1d3557;
     /* targets: Home, License, About  */
+}
+
+input[type="text"] {
+    color: #e63946;
+}
+
+.suggestion {
+    color: #1d3557;
+}
+
+.suggestion button {
+    color: #f1faee;
+    background-color: #1d3557;
+    border-color: #1d3557;
+    border-radius: 4px;
+    font-size: small;
+}
+
+.suggestion button:hover {
+    color: #457b9d;
+    font-size: large;
+}
+
+.suggestion button:active {
+    background-color: #a8dadc;
+}
+
+input:checked+label {
+    color: #e63946;
 }
