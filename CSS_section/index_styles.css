@@ -51,11 +51,10 @@ a {
 
 .topic a {
     color: #e63946;
-    text-decoration: underline;
 }
 
 .topic a:hover {
-    color: magenta;
+    text-decoration: underline
 }
 
 h1+p {
@@ -98,4 +97,8 @@ input[type="text"] {
 
 input:checked+label {
     color: #e63946;
+}
+
+::selection {
+    background-color: #d7cce0;
 }

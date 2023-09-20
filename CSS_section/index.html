@@ -66,25 +66,29 @@
     <section class="topic">
         <h2>Neck <span class="summary">Long</span></h2>
         <p>
-            Long.
+            Quite long, much longer than my neck or yours!
         </p>
     </section>
     <div>
         <button>Upvote</button>
         <button id="downvote">Downvote</button>
     </div>
-    <div class="suggestion">
-        <label for="suggestion">Suggestion:</label>
-        <input type="text" name="suggestion" id="suggestion">
-        <button>Submit</button>
-    </div>
-    <div>
-        Are you satisfied with this page?:
-        <input type="radio" name="satisfied" id="yes" value="yes">
-        <label for="yes">Yes</label>
-        <input type="radio" name="satisfied" id="no" value="no">
-        <label for="no">No</label>
-    </div>
+    <form action="\dummy">
+        <div>
+            Are you satisfied with this page?:
+            <input type="radio" name="satisfied" id="yes" value="yes" required>
+            <label for="yes">Yes</label>
+            <input type="radio" name="satisfied" id="no" value="no" required>
+            <label for="no">No</label>
+        </div>
+        <div class="suggestion">
+            <label for="suggestion">Suggestion:</label>
+            <input type="text" name="suggestion" id="suggestion">
+            <button>Submit</button>
+        </div>
+    </form>
+
+
     <footer>
         <ul>
             <li><a href="#home">Home</a></li>
