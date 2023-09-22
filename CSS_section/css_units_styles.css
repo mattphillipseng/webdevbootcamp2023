@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+}
+
+section {
+    background-color: #ccd5ae;
+    width: 100%;
+}
+
+div {
+    background-color: #e9edc9;
+    width: 70%;
+    height: 50%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 0.5em;
+}
+
+h1 {
+    border: 1px solid black;
+    margin: 4px 10px 4px 10px;
+    padding: 2px;
+    font-size: 40px;
+}
+
+section {
+    font-size: 15px;
+}
+
+h2 {
+    font-size: 2em;
+    /* size will be 2*15px from section */
+    margin-left: 1em;
+    /* for margin, 1em is calculated font size  */
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+button {
+    font-size: 1.4em;
+    padding: 0.1em 2em;
+    border-radius: .6em;
+    margin: 0.1em;
+}
+
+#b1 {
+    font-size: 0.8em;
+}
+
+button:hover {
+    background-color: #344e41;
+    color: white;
+}
+
+#ems ul {
+    font-size: 1.3em;
+}
+
+#rems ul {
+    font-size: 1.3rem;
+}
