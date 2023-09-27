@@ -1,0 +1,26 @@
+body {
+    font-family: 'Bodoni Moda', serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #023047;
+}
+
+button {
+    font-family: inherit;
+    font-size: 1.5rem;
+    background: none;
+    color: #fb8500;
+    border: 3px solid;
+    padding: 1rem 2rem;
+    transition: border-color 0.15s, color 0.15s, transform 0.15s, box-shadow 0.15s;
+}
+
+button:hover {
+    border-color: #ffb703;
+    color: #fefae0;
+    transform: translateY(-0.2rem);
+    box-shadow: 0 0.5rem 0.5rem -0.4rem #ffb703;
+    cursor: pointer;
+}
