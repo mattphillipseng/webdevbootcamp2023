@@ -41,17 +41,19 @@
         <button type="button" class="btn btn-success">Success</button>
         <button type="button" class="btn btn-success" disabled>Success Disabled</button>
         <button type="button" class="btn btn-outline-warning btn-lg">Warning Large</button>
-        
+
         <h2 class="display-4">Button Groups</h2>
         <div class="btn-group" role="group" aria-label="Basic example">
             <button type="button" class="btn btn-primary">Left</button>
             <button type="button" class="btn btn-primary">Middle</button>
             <button type="button" class="btn btn-primary">Right</button>
-          </div>
+        </div>
 
-        <h2 class="display-4">Badges <span class="badge bg-primary">New</span> <span><button type="button" class="btn btn-primary position-relative">Inbox
-            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">5</span>
-          </button></span>
+        <h2 class="display-4">Badges <span class="badge bg-primary">New</span> <span><button type="button"
+                    class="btn btn-primary position-relative">Inbox
+                    <span
+                        class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">5</span>
+                </button></span>
         </h2>
         <button class="btn btn-primary">Updates <span class="badge rounded-pill text-bg-light">300</span></button>
 
@@ -60,22 +62,122 @@
             <h4 class="alert-heading">Alert heading</h4>
             <p>Alert message.</p>
             <hr>
-            <p class="mb-0">^That's an hr. Used class="mb-0" on this paragraph (margin bottom).</he></p>
-          </div>
+            <p class="mb-0">^That's an hr. Used class="mb-0" on this paragraph (margin bottom).</he>
+            </p>
+        </div>
         <div class="alert alert-warning alert-dismissible fade show" role="alert">
             This alert is dismissable
             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-          </div>
+        </div>
 
-          
+        <h2 class="display-4">Grid</h2>
+        <p>12 units total, also needs to be in a container</p>
+        <div class="row">
+            <div class="col-3 text-bg-secondary border">col-3</div>
+            <div class="col-9 text-bg-secondary border">col-9</div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col text-bg-secondary border">col (auto size)</div>
+            <div class="col text-bg-secondary border">col (auto size)</div>
+            <div class="col text-bg-secondary border">col (auto size)</div>
+            <div class="col text-bg-secondary border">col (auto size)</div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-5 text-bg-secondary border">col-5</div>
+            <div class="col text-bg-secondary border">col (auto size)</div>
+            <div class="col text-bg-secondary border">col (auto size)</div>
+            <div class="col text-bg-secondary border">col (auto size)</div>
+        </div>
+        <hr>
+        <div class="row justify-content-center">
+            <div class="col-8 text-bg-secondary border">col-8 (row has justify-content-center)</div>
+        </div>
+        <h3>Responsive Grid</h3>
+
+        <div class="row">
+            <div class="col-md-6 col-xl-3 text-bg-primary border">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum incidunt atque, dolorem quidem
+                autem eius ea nihil sint quia laborum similique nemo earum sunt suscipit maiores libero minima
+                error cupiditate.
+            </div>
+            <div class="col-md-6 col-xl-3 text-bg-secondary border">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda omnis consequuntur distinctio
+                labore quo sapiente, modi error, enim vero ab in maiores. Officia ullam itaque, minus debitis
+                autem dolorem excepturi.
+            </div>
+            <div class="col-md-6 col-xl-3 text-bg-success border">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum incidunt atque, dolorem quidem
+                autem eius ea nihil sint quia laborum similique nemo earum sunt suscipit maiores libero minima
+                error cupiditate.
+            </div>
+            <div class="col-md-6 col-xl-3 text-bg-danger border">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda omnis consequuntur distinctio
+                labore quo sapiente, modi error, enim vero ab in maiores. Officia ullam itaque, minus debitis
+                autem dolorem excepturi.
+            </div>
+        </div>
+        <div class="row g-1">
+            <div class="col-xl-4 col-md-6">
+                <img class="img-fluid"
+                    src="https://images.unsplash.com/photo-1628413283166-a7666966d26b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80"
+                    alt="madeira landscape">
+            </div>
+            <div class="col-xl-4 col-md-6">
+                <img class="img-fluid"
+                    src="https://images.unsplash.com/photo-1619361034832-09d155da143f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2073&q=80"
+                    alt="madeira boats">
+            </div>
+            <div class="col-xl-4 col-md-6">
+                <img class="img-fluid"
+                    src="https://images.unsplash.com/photo-1552854123-2d47627f656b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+                    alt="madeira mountains">
+            </div>
+            <h3>Grid Alignment</h3>
+            <div class="row align-items-center">
+                <div class="col-3 text-bg-primary">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum voluptatibus illo maiores. Maiores,
+                    sed quisquam omnis voluptatibus, dolores repudiandae enim eaque sequi officiis nisi ratione facilis
+                    labore modi corporis! Omnis.
+                </div>
+                <div class="col-3 text-bg-secondary">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+                    saepe quia eveniet dicta harum officia explicabo nobis adipisci animi expedita cum dignissimos,
+                    veritatis nulla, quam suscipit dolor vero neque voluptatem.
+                    Eveniet fugit beatae ut expedita est, numquam molestias quisquam fuga, mollitia accusamus
+                    blanditiis, officia quia esse minima facilis doloribus adipisci iusto sit natus corrupti modi facere
+                    eum voluptatem assumenda. Distinctio?
+                </div>
+                <div class="col-3 text-bg-success">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum voluptatibus illo maiores. Maiores,
+                    sed quisquam omnis voluptatibus, dolores repudiandae enim eaque sequi officiis nisi ratione facilis
+                    labore modi corporis! Omnis.
+                </div>
+                <div class="col-3 text-bg-danger align-self-end">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum voluptatibus illo maiores. Maiores,
+                    sed quisquam omnis voluptatibus, dolores repudiandae enim eaque sequi officiis nisi ratione facilis
+                    labore modi corporis! Omnis.
+                </div>
+            </div>
+            <h3>Justify Content</h3>
+            <div class="row border justify-content-center justify-content-lg-around">
+                <div class="col-md-4 text-bg-success">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque, natus voluptate fugit non,
+                    necessitatibus numquam nesciunt voluptates iure repellat veritatis, quidem ipsum sequi consequatur
+                    similique minus officia. Cum, provident alias?
+                </div>
+                <div class="col-md-4 text-bg-info">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam quos soluta rem beatae tenetur deserunt
+                    eum incidunt corrupti, quas quo blanditiis possimus, saepe expedita tempora facilis eaque quam
+                    commodi excepturi.
+                </div>
+            </div>
+        </div>
+        <h2 class="display-4">Forms</h2>
+        <p>to do</p>
 
     </div>
-
-
-
-
-
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
