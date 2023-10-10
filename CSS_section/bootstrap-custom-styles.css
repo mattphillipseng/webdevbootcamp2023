@@ -1,0 +1,9 @@
+#custom_text {
+    color: palevioletred;
+    font-family: Cambria, serif;
+    font-size: 1.25rem;
+}
+
+#custom_text:hover {
+    color: #d21454;
+}
