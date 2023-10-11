@@ -84,4 +84,30 @@ Math.random(); // returns random decimal between 0 and 1
 // Math.random(5) returns num between 0 and 5, floor turns to an int
 Math.floor(Math.random() * 5);
 
+// DECISION MAKING
+// == checks for equality of value but not type
+1 == 1      // true
+1 == "1"    // true
+1 != "1"    // false
+0 == false  // true
+1 == true   // true
+2 >= "1"    // true
 
+// === check for equality of value and type
+1 === 1     // true
+1 === "1"   // false
+1 !== "1"   // true
+0 === false // false
+1 === true  // false
+
+// Generally, it's better to use === or !==
+
+
+// CONSOLE, ALERT, PROMPT
+console.log(1 + 3);
+console.log("hi")
+console.warn("warning msg!!!!")
+console.error("error msg! BAD!!")
+
+alert("hi there") // warns user, but not in console. In chrome a pop-up appears
+let userInput = parseInt(prompt("Please enter a number:"))
