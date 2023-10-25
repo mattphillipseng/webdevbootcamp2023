@@ -45,7 +45,8 @@ switch (num) {
         console.log("not 1, 2, 3, or 4")
 }
 
-// ARRAYS
+// ----- ARRAYS -----
+console.log("----- ARRAYS -----")
 const lang = ["English", "French", "Spanish"];
 console.log(typeof lang);
 console.log(lang.length);
@@ -72,4 +73,37 @@ let shifted = travelList.shift() // shift removes from start
 console.log(`shifted = ${shifted}`)
 console.log(travelList);
 travelList.unshift("Florida"); // unshift adds to start
-console.log(travelList); 
+console.log(travelList);
+// slice, slice(startIndex,endIndex)
+// splice, splice(start,numToDel, addItems) removes or adds stuff from an array, returns what was removed
+
+// sort converts to string, then sorts!
+let scores = [1, 5, 27, 78, 1000]
+console.log(scores)
+scores.sort()
+console.log(scores)
+// does not work for numbers!!
+
+// Array equality testing
+console.log('hi' === 'hi'); // true
+//console.log(['hi'] === ['hi']); // FALSE, because array is an object, compares by memory address
+
+let nums = [1, 2, 3]
+let numsCopy = nums;
+console.log(nums === numsCopy) // true, numsCopy points to nums
+
+const nums2 = [1, 2, 3]
+nums2.push(4) // no error, because const is only the memory address
+console.log(nums2)
+// nums2 = [1, 2, 3, 4] // can't do this, it creates a new array wiht a new address
+
+const users = [["Joe", 1996], ["Bob", 2000], ["Jeff", 1993]]
+console.log(users)
+console.log(users[0][0]) // Joe
+console.log(users[1][1]) // 2000
+users[1][1] = 1999
+console.log(users[1][1]) // 1999
+
+// ----- OBJECT LITERALS -----
+console.log("----- OBJECT LITERALS -----")
+
