@@ -18,6 +18,7 @@ else {
     console.log("Random number is between 0.3 and 0.7.")
 }
 
+// string methods
 const str = "ksjfgsbbb"
 if (str.length >= 5 && str.includes("a")) {
     console.log("String has length >= 5 and includes 'a'")
