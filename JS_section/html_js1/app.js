@@ -1,3 +1,9 @@
+// CONTENTS: 
+// - math
+// - string methods
+// - arrays
+// - object literals
+
 greeting = "Hi, this is the secret message. Are you disappointed?"
 console.log(greeting);
 
@@ -107,3 +113,43 @@ console.log(users[1][1]) // 1999
 // ----- OBJECT LITERALS -----
 console.log("----- OBJECT LITERALS -----")
 
+const carData = {
+    make: 'Subaru',
+    model: 'Crosstrek',
+    year: 2020,
+    color: 'white',
+    km: 65220,
+    lastOilChange: ['July', 2023]
+}
+console.log(carData['km']) // uglier way to access data imo
+console.log(carData.km)
+carData.km += 111
+console.log(carData.km)
+
+// can nest arrays and objects
+// objects in an array
+const cart = [
+    {
+        product: 'soap',
+        price: 5.20,
+        qty: 1
+    },
+    {
+        product: 'sponge',
+        price: 1.09,
+        qty: 2
+    },
+    {
+        product: 'brush',
+        price: 3.99,
+        qty: 1
+    }
+]
+
+// array and object in object
+const student = {
+    firstName: 'Davie',
+    lastName: 'Jones',
+    strengths: ['math', 'art'],
+    exams: { midterm: 86, final: 79 }
+}
